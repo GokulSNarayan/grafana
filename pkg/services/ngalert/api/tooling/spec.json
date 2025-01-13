@@ -4274,6 +4274,7 @@
           "$ref": "#/definitions/Route"
         },
         "templates": {
+          "description": "Templates is unused by Grafana Managed AM but is passed-through for compatibility with some external AMs.",
           "type": "array",
           "items": {
             "type": "string"
@@ -5046,6 +5047,7 @@
           "$ref": "#/definitions/Route"
         },
         "templates": {
+          "description": "Templates is unused by Grafana Managed AM but is passed-through for compatibility with some external AMs.",
           "type": "array",
           "items": {
             "type": "string"
@@ -6279,6 +6281,7 @@
           "$ref": "#/definitions/Route"
         },
         "templates": {
+          "description": "Templates is unused by Grafana Managed AM but is passed-through for compatibility with some external AMs.",
           "type": "array",
           "items": {
             "type": "string"
@@ -8331,7 +8334,6 @@
       }
     },
     "gettableAlert": {
-      "description": "GettableAlert gettable alert",
       "type": "object",
       "required": [
         "labels",
@@ -8396,6 +8398,7 @@
       "$ref": "#/definitions/gettableAlerts"
     },
     "gettableSilence": {
+      "description": "GettableSilence gettable silence",
       "type": "object",
       "required": [
         "comment",
@@ -8445,7 +8448,6 @@
       "$ref": "#/definitions/gettableSilence"
     },
     "gettableSilences": {
-      "description": "GettableSilences gettable silences",
       "type": "array",
       "items": {
         "$ref": "#/definitions/gettableSilence"
@@ -8598,7 +8600,6 @@
       }
     },
     "postableSilence": {
-      "description": "PostableSilence postable silence",
       "type": "object",
       "required": [
         "comment",
