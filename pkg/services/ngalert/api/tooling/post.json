@@ -671,6 +671,7 @@
      "$ref": "#/definitions/Route"
     },
     "templates": {
+     "description": "Templates is unused by Grafana Managed AM but is passed-through for compatibility with some external AMs.",
      "items": {
       "type": "string"
      },
@@ -1441,6 +1442,7 @@
      "$ref": "#/definitions/Route"
     },
     "templates": {
+     "description": "Templates is unused by Grafana Managed AM but is passed-through for compatibility with some external AMs.",
      "items": {
       "type": "string"
      },
@@ -2673,6 +2675,7 @@
      "$ref": "#/definitions/Route"
     },
     "templates": {
+     "description": "Templates is unused by Grafana Managed AM but is passed-through for compatibility with some external AMs.",
      "items": {
       "type": "string"
      },
@@ -4619,7 +4622,6 @@
    "type": "object"
   },
   "alertGroups": {
-   "description": "AlertGroups alert groups",
    "items": {
     "$ref": "#/definitions/alertGroup"
    },
@@ -4787,6 +4789,7 @@
    "type": "array"
   },
   "gettableSilence": {
+   "description": "GettableSilence gettable silence",
    "properties": {
     "comment": {
      "description": "comment",
